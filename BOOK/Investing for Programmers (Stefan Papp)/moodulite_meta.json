@@ -1,0 +1,67 @@
+[
+  {
+    "nr": 1,
+    "title": "Investeerimise loogika ja finantsinstrumendid",
+    "goal": "Õppija eristab vara omamist, raha laenamist ja hinnariski ülekandmist ning koostab investeerimise eesmärgi."
+  },
+  {
+    "nr": 2,
+    "title": "Aruanded, suhtarvud ja kasvutees",
+    "goal": "Õppija seob aruanded, arvutab suhtarvud ning koostab kontrollitava kasvuteesi."
+  },
+  {
+    "nr": 3,
+    "title": "Andmed ja korratav uurimistöö",
+    "goal": "Õppija loob kontrollitud hinnatabeli ja eristab andmete kuupäeva nende kättesaamise ajast."
+  },
+  {
+    "nr": 4,
+    "title": "Tootlus, portfell ja võrdlusindeks",
+    "goal": "Õppija arvutab liittootluse, volatiilsuse ja portfelli väärtuse ning eristab tasakaalustamist ostmisest ja hoidmisest."
+  },
+  {
+    "nr": 5,
+    "title": "Tuluportfell, võlakirjad ja krüpto",
+    "goal": "Õppija eristab rahalist väljamakset kogutootlusest ning arvutab lihtsa võlakirja hinna ja tootluse."
+  },
+  {
+    "nr": 6,
+    "title": "Varamonitor, valuuta ja SQL",
+    "goal": "Õppija ühendab positsioonid, hinnad ja valuutakursid ning kontrollib tulemuse päritolu."
+  },
+  {
+    "nr": 7,
+    "title": "Risk, optsioonid ja futuurid",
+    "goal": "Õppija mõõdab kahju eri viisidel ning modelleerib tuletisinstrumendi rahalist tulemust."
+  },
+  {
+    "nr": 8,
+    "title": "Masinõpe: baasmeetodist ausa hindamiseni",
+    "goal": "Õppija ehitab ajapõhise prognoosikatse ning oskab põhjendada, miks mudel pole turueelise tõend."
+  },
+  {
+    "nr": 9,
+    "title": "LLM, RAG ja piiratud uurimisagent",
+    "goal": "Õppija eristab arvutamist, teksti analüüsi ja agendi tööriistavalikut ning kontrollib väiteid allikast."
+  },
+  {
+    "nr": 10,
+    "title": "Graafikud ja tehnilised indikaatorid",
+    "goal": "Õppija loeb hinnagraafikut ning arvutab indikaatori ilma seda ekslikult prognoosigarantiiks pidamata."
+  },
+  {
+    "nr": 11,
+    "title": "Algoritmiline kauplemine ja järeltest",
+    "goal": "Õppija kirjeldab strateegia ajastuse ning hindab tulemusi koos tehingukulude ja baasstrateegiaga."
+  },
+  {
+    "nr": 12,
+    "title": "Erakapital ja iduettevõtete hindamine",
+    "goal": "Õppija arvutab osaluse, lahjenemise ja stsenaariumipõhise tulemuse ning mõistab likviidsuspiirangut."
+  },
+  {
+    "nr": 13,
+    "title": "Otsustusprotsess, lõpp-projekt ja õpetamine",
+    "goal": "Õppija koostab kontrollitava analüüsi, kaitseb piiranguid ja õpetab ühte meetodit teistele."
+  }
+]
