@@ -1,0 +1,264 @@
+{
+  "date": "2026-10-28",
+  "files": [
+    {
+      "file": "ch02.ipynb",
+      "sha256": "a9ecdfead3133e7d62ac2dbc72ded244110d28f6e9916d645e245f2da6dc1ee4",
+      "cells": 33,
+      "syntax_errors": [],
+      "imports": [
+        "datetime",
+        "matplotlib",
+        "pandas",
+        "yfinance"
+      ],
+      "action_keywords": [
+        "download",
+        "history"
+      ]
+    },
+    {
+      "file": "ch03.ipynb",
+      "sha256": "802a35fb89e4e93ad20933524a9530569e45a223cd026f488a76e7ba732e689e",
+      "cells": 43,
+      "syntax_errors": [],
+      "imports": [
+        "alpha_vantage",
+        "dotenv",
+        "eodhd",
+        "matplotlib",
+        "numpy",
+        "openbb",
+        "os",
+        "pandas",
+        "requests",
+        "yfinance"
+      ],
+      "action_keywords": [
+        "history"
+      ]
+    },
+    {
+      "file": "ch04.ipynb",
+      "sha256": "f704dfceaefc3734983d4f3e831d382f054edabc49d0dc59daaeb6df95899343",
+      "cells": 19,
+      "syntax_errors": [],
+      "imports": [
+        "alpha_vantage",
+        "collections",
+        "dotenv",
+        "matplotlib",
+        "os",
+        "pandas",
+        "pytrends",
+        "requests",
+        "yfinance"
+      ],
+      "action_keywords": [
+        "history"
+      ]
+    },
+    {
+      "file": "ch05.ipynb",
+      "sha256": "05de43bf60adf5d009cb2093f8c280def442e734d33715f15e7d59f034e7164f",
+      "cells": 10,
+      "syntax_errors": [],
+      "imports": [
+        "dotenv",
+        "io",
+        "matplotlib",
+        "os",
+        "pandas",
+        "requests",
+        "yfinance"
+      ],
+      "action_keywords": []
+    },
+    {
+      "file": "ch06.ipynb",
+      "sha256": "136c21034cf4f8f6772a0f00328c83f67c58279a8bafdc72019614e35e986418",
+      "cells": 20,
+      "syntax_errors": [],
+      "imports": [
+        "alpaca",
+        "binance",
+        "currency_converter",
+        "dotenv",
+        "gspread",
+        "ib_insync",
+        "oauth2client",
+        "os",
+        "pandas",
+        "requests",
+        "sqlalchemy",
+        "yfinance"
+      ],
+      "action_keywords": []
+    },
+    {
+      "file": "ch07.ipynb",
+      "sha256": "5d22857abd1a1e5a56fa0a14df9737461038c9e9ceaaf93e224fe6c2fd615853",
+      "cells": 25,
+      "syntax_errors": [],
+      "imports": [
+        "datetime",
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "sklearn",
+        "yfinance"
+      ],
+      "action_keywords": [
+        "download",
+        "history"
+      ]
+    },
+    {
+      "file": "ch08.ipynb",
+      "sha256": "369c4ddc8ce88598374c5f2016eddf47af4f354eeb0ac43f7d24468e7f6011c9",
+      "cells": 37,
+      "syntax_errors": [],
+      "imports": [
+        "anthropic",
+        "datetime",
+        "dotenv",
+        "google",
+        "math",
+        "matplotlib",
+        "mistralai",
+        "numpy",
+        "openai",
+        "os",
+        "pandas",
+        "plotly",
+        "scipy",
+        "sklearn",
+        "transformers",
+        "yfinance"
+      ],
+      "action_keywords": [
+        "create",
+        "download",
+        "history"
+      ]
+    },
+    {
+      "file": "ch09.ipynb",
+      "sha256": "58910dfde1603a3f664782929edd1676723098d7cf9a132af476e118555eee32",
+      "cells": 21,
+      "syntax_errors": [
+        {
+          "cell": 7,
+          "line": 1,
+          "reason": "unexpected indent"
+        }
+      ],
+      "imports": [
+        "IPython",
+        "datetime",
+        "dotenv",
+        "enum",
+        "google",
+        "langchain",
+        "langchain_community",
+        "langchain_core",
+        "langchain_openai",
+        "langchain_text_splitters",
+        "langgraph",
+        "openai",
+        "os",
+        "pandas",
+        "requests",
+        "sqlalchemy",
+        "typing_extensions"
+      ],
+      "action_keywords": [
+        "create",
+        "invoke"
+      ]
+    },
+    {
+      "file": "ch10.ipynb",
+      "sha256": "ca6bfaea6cc2a8bc5c50b8fb0c5cad6c584a71a42dcbe5cc75812196e0dbb8e3",
+      "cells": 39,
+      "syntax_errors": [],
+      "imports": [
+        "matplotlib",
+        "mplfinance",
+        "pandas",
+        "yfinance"
+      ],
+      "action_keywords": [
+        "download",
+        "history"
+      ]
+    },
+    {
+      "file": "ch11.ipynb",
+      "sha256": "58a06711f86aaf0c25076a5da0325ad8e53dab6792cb4b317523b511c4ecab52",
+      "cells": 21,
+      "syntax_errors": [],
+      "imports": [
+        "alpaca",
+        "dotenv",
+        "ib_insync",
+        "numpy",
+        "os",
+        "pandas",
+        "yfinance"
+      ],
+      "action_keywords": [
+        "history",
+        "placeOrder",
+        "submit_order"
+      ]
+    },
+    {
+      "file": "ch12.ipynb",
+      "sha256": "2a2585060bec6143dfa0b11585d9a237bacfec7104b770ad3d74af73ecd805b8",
+      "cells": 2,
+      "syntax_errors": [],
+      "imports": [
+        "numpy",
+        "pandas"
+      ],
+      "action_keywords": []
+    },
+    {
+      "file": "ch10_streamlit.py",
+      "sha256": "e03c4da9e7d4b6afc6ccff94bc866f97a8fc9a94f74157e87f9356430b23717a",
+      "cells": 1,
+      "syntax_errors": [],
+      "imports": [
+        "pandas",
+        "streamlit",
+        "yfinance"
+      ],
+      "action_keywords": [
+        "download"
+      ]
+    },
+    {
+      "file": "ch10_streamlit_ta.py",
+      "sha256": "26b621f301744c36d15ee3a72bf09a9cf6670d781c1a12e89c58f9b1b98cd939",
+      "cells": 1,
+      "syntax_errors": [],
+      "imports": [
+        "matplotlib",
+        "mplfinance",
+        "pandas",
+        "streamlit",
+        "yfinance"
+      ],
+      "action_keywords": [
+        "history"
+      ]
+    }
+  ],
+  "executed_ch12": {
+    "stdout": "Estimated Startup Valuation: $1,695,966.71\n",
+    "founder_final_pct": 22.95,
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

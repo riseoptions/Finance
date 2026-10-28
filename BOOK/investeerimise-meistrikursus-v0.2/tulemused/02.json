@@ -1,0 +1,23 @@
+[
+  {
+    "stsenaarium": "Rahulik",
+    "n": 10,
+    "vara_sigma": 0.2,
+    "rho": 0.1,
+    "portfelli_sigma": 0.08717797887081347
+  },
+  {
+    "stsenaarium": "Ainult korrelatsiooni stress",
+    "n": 10,
+    "vara_sigma": 0.2,
+    "rho": 0.8,
+    "portfelli_sigma": 0.18110770276274835
+  },
+  {
+    "stsenaarium": "Korrelatsiooni ja volatiilsuse stress",
+    "n": 10,
+    "vara_sigma": 0.4,
+    "rho": 0.8,
+    "portfelli_sigma": 0.3622154055254967
+  }
+]

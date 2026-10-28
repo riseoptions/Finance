@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "title": "Liitintress",
+    "expression": "1000*1.06**5",
+    "value": 1338.2255776000002,
+    "unit": "eurot"
+  },
+  {
+    "id": 2,
+    "title": "Reaaltootlus",
+    "expression": "100*(1.08/1.05-1)",
+    "value": 2.857142857142869,
+    "unit": "%"
+  },
+  {
+    "id": 3,
+    "title": "Taastumine",
+    "expression": "100*.35/.65",
+    "value": 53.84615384615385,
+    "unit": "%"
+  },
+  {
+    "id": 4,
+    "title": "CAGR",
+    "expression": "100*((1.1*.8*1.3)**(1/3)-1)",
+    "value": 4.586430635119676,
+    "unit": "% aastas"
+  },
+  {
+    "id": 5,
+    "title": "Kogutootlus dividendiga",
+    "expression": "100*(98-100+5)/100",
+    "value": 3.0,
+    "unit": "%"
+  },
+  {
+    "id": 6,
+    "title": "Valuutamõju",
+    "expression": "100*(1.1*.9-1)",
+    "value": -0.9999999999999898,
+    "unit": "%"
+  },
+  {
+    "id": 7,
+    "title": "Nüüdisväärtus",
+    "expression": "1100/1.1",
+    "value": 999.9999999999999,
+    "unit": "eurot"
+  },
+  {
+    "id": 8,
+    "title": "Annuiteet",
+    "expression": "100*(1.05**5-1)/.05",
+    "value": 552.5631250000007,
+    "unit": "eurot"
+  },
+  {
+    "id": 9,
+    "title": "Tasude mõju",
+    "expression": "10000*(1.07*.99)**20",
+    "value": 31650.417681796647,
+    "unit": "eurot"
+  },
+  {
+    "id": 10,
+    "title": "Kahjum protsendipunktides",
+    "expression": "12-9",
+    "value": 3,
+    "unit": "protsendipunkti"
+  },
+  {
+    "id": 11,
+    "title": "Kupongvõlakirja hind",
+    "expression": "50/1.06+50/1.06**2+1050/1.06**3",
+    "value": 973.2698805053835,
+    "unit": "eurot"
+  },
+  {
+    "id": 12,
+    "title": "Nullkupongvõlakiri",
+    "expression": "1000/1.04**5",
+    "value": 821.9271067593517,
+    "unit": "eurot"
+  },
+  {
+    "id": 13,
+    "title": "Üheaastane tootlus tähtajani",
+    "expression": "100*(105/102-1)",
+    "value": 2.941176470588225,
+    "unit": "%"
+  },
+  {
+    "id": 14,
+    "title": "Macaulay duration",
+    "expression": "(50/1.06+2*50/1.06**2+3*1050/1.06**3)/(50/1.06+50/1.06**2+1050/1.06**3)",
+    "value": 2.857347435255957,
+    "unit": "aastat"
+  },
+  {
+    "id": 15,
+    "title": "Duration'i lähend",
+    "expression": "100*(-4.5*.005)",
+    "value": -2.25,
+    "unit": "%"
+  },
+  {
+    "id": 16,
+    "title": "Convexity parandus",
+    "expression": "100*(-5*.01+.5*30*.01**2)",
+    "value": -4.8500000000000005,
+    "unit": "%"
+  },
+  {
+    "id": 17,
+    "title": "Krediidikahju",
+    "expression": "100*.02*.60",
+    "value": 1.2,
+    "unit": "%"
+  },
+  {
+    "id": 18,
+    "title": "Call'i kasum",
+    "expression": "max(110-100,0)-5",
+    "value": 5,
+    "unit": "rahaühikut"
+  },
+  {
+    "id": 19,
+    "title": "Put'i kasum",
+    "expression": "max(100-85,0)-4",
+    "value": 11,
+    "unit": "rahaühikut"
+  },
+  {
+    "id": 20,
+    "title": "Call'i tasuvuspunkt",
+    "expression": "100+5",
+    "value": 105,
+    "unit": "alusvara hinnaühikut"
+  },
+  {
+    "id": 21,
+    "title": "Portfelli ootus",
+    "expression": "100*(.6*.08+.4*.03)",
+    "value": 6.0,
+    "unit": "%"
+  },
+  {
+    "id": 22,
+    "title": "Kahe vara risk",
+    "expression": "100*sqrt(.5**2*.2**2+.5**2*.2**2)",
+    "value": 14.142135623730953,
+    "unit": "%"
+  },
+  {
+    "id": 23,
+    "title": "Täiuslik koosliikumine",
+    "expression": "100*sqrt(.01+.01+.02)",
+    "value": 20.0,
+    "unit": "%"
+  },
+  {
+    "id": 24,
+    "title": "Vastassuunaline liikumine",
+    "expression": "100*sqrt(.01+.01-.02)",
+    "value": 0.0,
+    "unit": "%"
+  },
+  {
+    "id": 25,
+    "title": "Hajutamise piirrisk",
+    "expression": "100*.2*sqrt(.1)",
+    "value": 6.324555320336759,
+    "unit": "%"
+  },
+  {
+    "id": 26,
+    "title": "Korrelatsioonistress",
+    "expression": "100*.2*sqrt(.8+.2/10)",
+    "value": 18.110770276274835,
+    "unit": "%"
+  },
+  {
+    "id": 27,
+    "title": "Sharpe",
+    "expression": ".06/.12",
+    "value": 0.5,
+    "unit": "suhtarv"
+  },
+  {
+    "id": 28,
+    "title": "Maksimaalne langus",
+    "expression": "100*(90/120-1)",
+    "value": -25.0,
+    "unit": "%"
+  },
+  {
+    "id": 29,
+    "title": "Sortino nimetaja",
+    "expression": "100*sqrt(.02**2/2)",
+    "value": 1.4142135623730951,
+    "unit": "%"
+  },
+  {
+    "id": 30,
+    "title": "Rebalanseerimise tehing",
+    "expression": "600-1100/2",
+    "value": 50.0,
+    "unit": "eurot"
+  },
+  {
+    "id": 31,
+    "title": "Suur võiduprotsent",
+    "expression": ".9*1-.1*20",
+    "value": -1.1,
+    "unit": "rahaühikut"
+  },
+  {
+    "id": 32,
+    "title": "Bayesi uuendus",
+    "expression": "100*(.1*.8)/(.1*.8+.9*.2)",
+    "value": 30.769230769230774,
+    "unit": "%"
+  },
+  {
+    "id": 33,
+    "title": "Mitu hüpoteesi",
+    "expression": "100*(1-.95**20)",
+    "value": 64.15140775914581,
+    "unit": "%"
+  },
+  {
+    "id": 34,
+    "title": "Krahhita ajalugu",
+    "expression": "100*.96**60",
+    "value": 8.635231448510458,
+    "unit": "%"
+  },
+  {
+    "id": 35,
+    "title": "Diskreetne ES",
+    "expression": "100*(.04*.20-.01*.005)/.05",
+    "value": 15.9,
+    "unit": "%"
+  },
+  {
+    "id": 36,
+    "title": "Ruutjuurega aastastamine",
+    "expression": "100*.01*sqrt(252)",
+    "value": 15.874507866387544,
+    "unit": "%"
+  },
+  {
+    "id": 37,
+    "title": "Beeta",
+    "expression": ".018/.012",
+    "value": 1.4999999999999998,
+    "unit": "suhtarv"
+  },
+  {
+    "id": 38,
+    "title": "CAPM-i ootus",
+    "expression": "100*(.03+1.2*(.08-.03))",
+    "value": 9.0,
+    "unit": "%"
+  },
+  {
+    "id": 39,
+    "title": "Standardviga",
+    "expression": "100*.10/sqrt(100)",
+    "value": 1.0,
+    "unit": "protsendipunkti"
+  },
+  {
+    "id": 40,
+    "title": "Ligikaudne usaldusvahemik",
+    "expression": "2-1.96*1",
+    "value": 0.040000000000000036,
+    "unit": "%"
+  },
+  {
+    "id": 41,
+    "title": "P/E",
+    "expression": "30/2",
+    "value": 15.0,
+    "unit": "korda"
+  },
+  {
+    "id": 42,
+    "title": "Tagasiostu EPS-mõju",
+    "expression": "100*((100/90)/(100/100)-1)",
+    "value": 11.111111111111116,
+    "unit": "%"
+  },
+  {
+    "id": 43,
+    "title": "Lihtsustatud FCF",
+    "expression": "18-15",
+    "value": 3,
+    "unit": "rahaühikut"
+  },
+  {
+    "id": 44,
+    "title": "Püsikasvu väärtus",
+    "expression": "4/(.10-.02)",
+    "value": 50.0,
+    "unit": "rahaühikut"
+  },
+  {
+    "id": 45,
+    "title": "Võimendus",
+    "expression": "100*((200*.9-100)/100-1)",
+    "value": -19.999999999999996,
+    "unit": "%"
+  },
+  {
+    "id": 46,
+    "title": "Päevane 2× ETF",
+    "expression": "100*((1+2*.1)*(1+2*(1/1.1-1))-1)",
+    "value": -1.81818181818183,
+    "unit": "%"
+  },
+  {
+    "id": 47,
+    "title": "Kelly",
+    "expression": "100*(.55-(1-.55))",
+    "value": 10.000000000000009,
+    "unit": "% kapitalist"
+  },
+  {
+    "id": 48,
+    "title": "Kauplemiskulu",
+    "expression": ".08-.10",
+    "value": -0.020000000000000004,
+    "unit": "% kapitalist"
+  },
+  {
+    "id": 49,
+    "title": "Staking'u ühikurisk",
+    "expression": "100*(1.1*.8-1)",
+    "value": -11.99999999999999,
+    "unit": "%"
+  },
+  {
+    "id": 50,
+    "title": "Leia analüüsiviga",
+    "expression": "100*(1.5*.5-1)",
+    "value": -25.0,
+    "unit": "%"
+  }
+]
