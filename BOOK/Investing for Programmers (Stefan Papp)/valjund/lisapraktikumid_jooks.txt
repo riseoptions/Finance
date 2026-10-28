@@ -1,0 +1,6 @@
+Ajaloolise meetodi VaR95/ES95 demo: 209.56 267.86
+Valimi vähima riskiga kaalud: [0.004 0.014 0.982] risk 0.0568
+Stress: aktsiad -40%, võlakiri -10%; võrdsed kaalud: -0.3
+NAIIVNE sentiment: 'Müügitulu kasvas' 1
+NAIIVNE sentiment: 'Kahjum vähenes oodatust rohkem' -1
+Negatiivne sõna ei pruugi tähendada negatiivset uudist; käsitsi märgendamine on vajalik.

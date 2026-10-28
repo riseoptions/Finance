@@ -1,0 +1,5 @@
+Hind 90 call kasum -5 put kasum 6
+Hind 100 call kasum -5 put kasum -4
+Hind 105 call kasum 0 put kasum -4
+Hind 120 call kasum 15 put kasum -4
+Maksimaalne langus -0.25

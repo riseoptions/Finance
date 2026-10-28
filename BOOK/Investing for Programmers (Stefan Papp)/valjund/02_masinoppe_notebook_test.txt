@@ -1,0 +1,15 @@
+Ajutine töökaust: /tmp/investeerimine_t1jko8j1
+                  r1        r5     vol20  kaugus20    target
+2022-01-31 -0.004251 -0.019028  0.011460  0.005725 -0.004771
+2022-02-01 -0.004771 -0.006924  0.011474  0.001330 -0.015582
+2022-02-02 -0.015582 -0.036108  0.011902 -0.013428  0.003082
+2022-02-03  0.003082 -0.014240  0.011455 -0.009012 -0.001022
+2022-02-04 -0.001022 -0.022437  0.011428 -0.008833  0.005748
+          mudel   CV_RMSE  test_RMSE
+0          null  0.012650   0.014569
+1         Ridge  0.012728   0.014594
+2  RandomForest  0.012809   0.014855
+{'treening_lopp': '2024-04-30 00:00:00', 'test_algus': '2024-05-02 00:00:00', 'test_ridu': 148}
+enamus täpsus 0.473 Brier 0.2504
+logistiline täpsus 0.5135 Brier 0.2498
+Kirjeldavad klastrid (vaid 3 demo-vara): {'AKTSIA_A_SIM': 0, 'AKTSIA_B_SIM': 0, 'VOLAKIRI_SIM': 1}

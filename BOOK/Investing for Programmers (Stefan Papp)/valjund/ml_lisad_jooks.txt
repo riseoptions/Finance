@@ -1,0 +1,3 @@
+enamus täpsus 0.473 Brier 0.2504
+logistiline täpsus 0.5135 Brier 0.2498
+Kirjeldavad klastrid (vaid 3 demo-vara): {'AKTSIA_A_SIM': 0, 'AKTSIA_B_SIM': 0, 'VOLAKIRI_SIM': 1}

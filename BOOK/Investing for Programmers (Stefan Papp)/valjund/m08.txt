@@ -1,0 +1,5 @@
+       mudel  CV_RMSE  test_RMSE
+        null 0.012650   0.014569
+       Ridge 0.012728   0.014594
+RandomForest 0.012809   0.014855
+{'treening_lopp': '2024-04-30 00:00:00', 'test_algus': '2024-05-02 00:00:00', 'test_ridu': 148}

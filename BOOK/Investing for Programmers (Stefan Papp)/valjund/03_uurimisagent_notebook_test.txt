@@ -1,0 +1,12 @@
+Ajutine töökaust: /tmp/investeerimine_iblbq7rn
+[{'id': 'D1', 'source': 'FIKTIIVNE õppearuanne, lk 1', 'text': 'Demoettevõtte müügitulu oli 120 miljonit eurot, eelmisel aastal 100 miljonit eurot.', 'score': 0.2987325439133184}]
+# Uurimistöö SKRIPTITUD_DEMO
+
+Fiktiivses näites on müügitulu 120 ja varasem tulu 100 miljonit; kasv on 20%. Kliendikontsentratsioon on risk. M1 näitab eraldi simuleeritud vara riski, mitte ettevõtte turuandmeid.
+
+Tõendid: D1, D2, M1
+
+Viite-ID kontroll ei tõenda väite sisulist õigsust. Inimese kontroll on vajalik.
+
+SKRIPTITUD_DEMO
+Lubamatu tööriist või argumendid.

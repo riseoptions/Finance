@@ -1,0 +1,10 @@
+                             kogutootlus    CAGR  volatiilsus  max_langus
+AKTSIA_A_SIM                     -0.1493 -0.0525       0.2038     -0.3174
+AKTSIA_B_SIM                     -0.2844 -0.1055       0.2228     -0.3966
+VOLAKIRI_SIM                     -0.0986 -0.0340       0.0562     -0.1433
+osta_hoia_vordsed_algkaalud      -0.1774 -0.0630       0.1313     -0.2648
+       mudel  CV_RMSE  test_RMSE
+        null 0.012650   0.014569
+       Ridge 0.012728   0.014594
+RandomForest 0.012809   0.014855
+Raport: /workspace/scratch/e85b4aeef2ff/kursus/valjund/raport.md
