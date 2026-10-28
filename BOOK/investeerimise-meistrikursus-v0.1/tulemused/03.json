@@ -1,0 +1,17 @@
+{
+  "A": {
+    "VaR": -0.005,
+    "ES": 0.159
+  },
+  "B": {
+    "VaR": -0.005,
+    "ES": 0.639
+  },
+  "vaikse_ajaloo_hinnang": {
+    "VaR": -0.005,
+    "ES": -0.005
+  },
+  "toenaosus_60_kuud_ilma_krahhita": 0.08635231448510458,
+  "A_oodatav_kuutootlus": -0.0032000000000000006,
+  "B_oodatav_kuutootlus": -0.027200000000000002
+}

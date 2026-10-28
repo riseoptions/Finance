@@ -1,0 +1,24 @@
+[
+  {
+    "oskuse_hajuvus": 0.0,
+    "kordusi": 1000,
+    "voitja_varasem_cagr": 0.35500740228121275,
+    "voitja_jargmine_cagr": 0.06213997802049124,
+    "jargmise_cagr_vahe_fondide_keskmisega": -0.0031924487908613357,
+    "monte_carlo_95_vahemik": [
+      -0.008316198178030185,
+      0.0019313005963075137
+    ]
+  },
+  {
+    "oskuse_hajuvus": 0.04,
+    "kordusi": 1000,
+    "voitja_varasem_cagr": 0.3952947000315628,
+    "voitja_jargmine_cagr": 0.12485930865835707,
+    "jargmise_cagr_vahe_fondide_keskmisega": 0.058716070684479274,
+    "monte_carlo_95_vahemik": [
+      0.05240412530882768,
+      0.06502801606013087
+    ]
+  }
+]
