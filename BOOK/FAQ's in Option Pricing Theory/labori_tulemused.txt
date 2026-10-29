@@ -1,0 +1,22 @@
+1–2: hind, delta, raha, q: 0.3333333333333333 0.6666666666666666 -0.3333333333333333 0.3333333333333333
+p= 0.2 P-keskmine= 0.2 replikatsioonihind= 0.3333333333333333
+p= 0.5 P-keskmine= 0.5 replikatsioonihind= 0.3333333333333333
+p= 0.8 P-keskmine= 0.8 replikatsioonihind= 0.3333333333333333
+3: BS sigma20/sigma30, delta, gamma: 7.965567455405804 11.923538474048499 0.539827837277029 0.01984762737385059
+4: uus rahakonto: -0.1999999999999975
+5: aktsia+raha kaalud ja jäägid: [  0.5        -43.33333333] [ 3.33333333 -6.66666667  3.33333333]
+5: aktsia+raha+put kaalud: [   1. -100.    1.]
+6: 100 -> 80 hüppe optsioonimiinus-delta jääk: 4.016918803345199
+7: aQ=aP-b*lambda: 0.019999999999999997
+7: HJM forwardi drift: 0.0005
+8: keskmine P&L, standardviga, teooria: -3.925582912319286 0.027486834333330643 -3.957971018642695
+8: P&L 5/50/95 protsentiil: [-7.45030061 -3.71976156 -1.20966353]
+8: gamma-integrali keskmine: -3.922948025410212
+sammud / tasuta std / kuludega keskmine / keskmine kulu: 12 1.9538931597249434 -0.2463796795150404 0.21196531410625788
+sammud / tasuta std / kuludega keskmine / keskmine kulu: 52 0.95761447890754 -0.3444057801723713 0.3341986282189722
+sammud / tasuta std / kuludega keskmine / keskmine kulu: 252 0.44208845302954847 -0.6112506999665567 0.6071701573250794
+Fikseeritud müügihind sigma=20%, tegelik sigma=30%:
+hedge sigma / Q-keskmine / std: 0.15 -3.9008884379090136 3.111340417013004
+hedge sigma / Q-keskmine / std: 0.2 -3.925582912319286 1.9434183240563914
+hedge sigma / Q-keskmine / std: 0.3 -3.9651110116657846 0.6589609524452443
+Kõik arvulised kontrollid läbitud.
