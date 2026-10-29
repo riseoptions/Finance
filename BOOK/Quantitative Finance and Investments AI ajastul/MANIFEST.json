@@ -1,0 +1,284 @@
+{
+  "title": "Kvantitatiivne investeerimine AI ajastul",
+  "date": "2026-10-29",
+  "modules": 16,
+  "notebooks": 3,
+  "files": [
+    {
+      "path": "30_POHIMOTET_20_TOORIISTA.md",
+      "sha256": "8f6607c128e6d8b7250758198937d7e0236b9eb24d8014ae718e883b37fabd7a"
+    },
+    {
+      "path": "ALLIKAD.md",
+      "sha256": "c92e003d6ed5cb547cb99a2e9d0eecb7bdaf3cacf6b0871523bf7c5e1e09d06b"
+    },
+    {
+      "path": "CHATGPT_WORK.md",
+      "sha256": "da2631ae3b5495648ffa26cf04f22c4b8671e00c4bd20d38ab9a971b1450b3d6"
+    },
+    {
+      "path": "KONTROLL.md",
+      "sha256": "86341068e33308d798933227ac40a7435ceca9922aabc5d5545fab0e1e1842fa"
+    },
+    {
+      "path": "PROJEKT.md",
+      "sha256": "46f7e5dfdde5ff2cf986b3f04c7b4a383e495eeea3be6be34d1f67ee0467763f"
+    },
+    {
+      "path": "RAAMATU_KAART.md",
+      "sha256": "2f2327a3b0cbad041bf69bd4de615b5a1797b5efdbbb1c55ebc6637c5ce0dcb4"
+    },
+    {
+      "path": "README.md",
+      "sha256": "594fc367e143cdb131b6118128fb8e7e0d37be2748cbd66b39584e0f2a2fc17f"
+    },
+    {
+      "path": "SONASTIK.md",
+      "sha256": "0025373724faf6d4f079b15c726e7b243f5a23f961cdc11fc397a036d1b5c0e2"
+    },
+    {
+      "path": "TAIENDUSED_2026.md",
+      "sha256": "ca11ae4b613609d3e85f6ed334124d80023aa168d9ee3f9e200d053fd4b88356"
+    },
+    {
+      "path": "VALEMID.md",
+      "sha256": "22eb808861dc5ff6611abc7a3afb103e04bd65c2b838ed8ae6af63d019b1b715"
+    },
+    {
+      "path": "andmed/hinnad.csv",
+      "sha256": "37b913efffd1dfdccf35a411b089fcd4222cecaa45f8384ce56e2d33e4c9f1f2"
+    },
+    {
+      "path": "andmed/provenance.json",
+      "sha256": "6936af1b16cc2586782c6dab134fd4fcede6a692af600a3798944eaef9c272ae"
+    },
+    {
+      "path": "harjutused/LAHENDUSED.md",
+      "sha256": "920eae284d29a18b156ef1bcec707dc6011a1e77a2cf06555e1a5bd8aae54f12"
+    },
+    {
+      "path": "harjutused/LOPUTEST.md",
+      "sha256": "f646270e3dad95b6cc92b7c83146c55bd5202b717ab88f947bbab4aff47c96ca"
+    },
+    {
+      "path": "harjutused/TOOLEHED.md",
+      "sha256": "da0481a65625cd63a4ca817c406b0e16936bf0c6fe89a0439a082cda33de3e40"
+    },
+    {
+      "path": "joonised/kapital.png",
+      "sha256": "d3edfd098b9d57e82c12db5497bd5495ec4d918f445e45497d2857b57df69194"
+    },
+    {
+      "path": "joonised/kulud.png",
+      "sha256": "db8e3243d703c7e675ce16c5c1af5c4b157812c82d4029a91bec6fb9ba03fc4c"
+    },
+    {
+      "path": "kood/01_andmed.py",
+      "sha256": "29b0fd5b92b01aa56d91bea2a53e71b52a8c768aaba506e50b40ec4fac70a348"
+    },
+    {
+      "path": "kood/02_statistika.py",
+      "sha256": "1287bf6b7acb60d1adc73e4ec2435f254193a232bd1915c8ec632a7e76e0b7f8"
+    },
+    {
+      "path": "kood/03_strateegia.py",
+      "sha256": "276fd3eeac11fac70a6a49eaf94f0a49c8f655f78108d56bedd44d84398d7a45"
+    },
+    {
+      "path": "kood/04_mudel.py",
+      "sha256": "9b6fbae0903443b168603333419c49ebe73df806e47a492ed59cd0083bebd731"
+    },
+    {
+      "path": "kood/05_testimine.py",
+      "sha256": "269b03add6d46c6d0714a3db48f8ffa79caab67358b2582f4f5fcf1810078921"
+    },
+    {
+      "path": "kood/06_portfell.py",
+      "sha256": "a4abb48064eb2c31dffc343e9bcbd0d3268be3b36b73e500b9eb7bf2b9250a42"
+    },
+    {
+      "path": "kood/07_rag_agent.py",
+      "sha256": "b64c4cc5f55f4d303c94de865fd1e0851345a6d381682b1f63d21169fed851c7"
+    },
+    {
+      "path": "kood/08_agent.py",
+      "sha256": "b170005f4a9acf0f93e2bf060cd87ab723086a0542b79cf014f1f20a050154ae"
+    },
+    {
+      "path": "kood/09_vordlus.py",
+      "sha256": "7204d052d9a392ff093b2dca4b4b6a0aa053d7530f3c41e811f6ea731d70a7c2"
+    },
+    {
+      "path": "kood/10_instrumendid.py",
+      "sha256": "14320c8a645bb4ccb1888fc56fe7f5b9580a90d76a735db997af3a4714568405"
+    },
+    {
+      "path": "kood/11_aegrida.py",
+      "sha256": "1e02a626d5e9f2889bc1c732682e6853af84aea9ad2affddddc88df53bd42dea"
+    },
+    {
+      "path": "kood/12_dokumendid.py",
+      "sha256": "13cc4c6268771ebc3658e1e2cf709885362fda02baed5c5c9e680db7f7202414"
+    },
+    {
+      "path": "kood/projekt.py",
+      "sha256": "674bc26e6695bb2415e7a09706ef2b0db423952cd72ac5f96bcecfdd1b2ed7f1"
+    },
+    {
+      "path": "kood/test_kontrollid.py",
+      "sha256": "294dcf4b0c03ca2ce329ce0878bb295add68cb3e839b12416c2e92e336381566"
+    },
+    {
+      "path": "markmikud/01_projekt.ipynb",
+      "sha256": "27cb16e32826a55d36a3ace467a6375ad91325000964d04cfd4d5b0246ba4c19"
+    },
+    {
+      "path": "markmikud/02_rag_agent.ipynb",
+      "sha256": "995bd4a784aa51af721a4fa769b204c6289ce0f03748d15d80546849f92b5972"
+    },
+    {
+      "path": "markmikud/03_instrumendid_aegrida.ipynb",
+      "sha256": "cafde6f56cda209d685a000a6dc8383cb1a09a377e7229974710989bab7a56bb"
+    },
+    {
+      "path": "moodulid/01.md",
+      "sha256": "624cc7f89623d55dd2f4dc067a587b8d5dcb363fe9ca7ed7e05659fcd6d204d5"
+    },
+    {
+      "path": "moodulid/02.md",
+      "sha256": "99b25440cf388ebcab15560bd8ccf7e58d11b16f1ae58526b1275f746e248cc3"
+    },
+    {
+      "path": "moodulid/03.md",
+      "sha256": "3612200eb691b21b2eb610c1d85fcfae17a02d88ddf874c352e57fdfe2862e42"
+    },
+    {
+      "path": "moodulid/04.md",
+      "sha256": "59bbe773eca1ee3187b2ac5c36af5ac66563761173553be48465bcfe08b5be56"
+    },
+    {
+      "path": "moodulid/05.md",
+      "sha256": "c7dd33e1870e50e088fd09b7ed3f75c59fc076d5ac5cb845af1e3676d7c91f83"
+    },
+    {
+      "path": "moodulid/06.md",
+      "sha256": "dfdee27ba00a2307af2ee8d1f13d5f67ace7f142691a099d1b23db18671f31e5"
+    },
+    {
+      "path": "moodulid/07.md",
+      "sha256": "f61fac02399e39e99a447f175e8d3e5dd0a91d615ba2fdba1a7bac362b5395f0"
+    },
+    {
+      "path": "moodulid/08.md",
+      "sha256": "fa9bcca05cc91edd22d4d37aae4aacdfd97df31cf9bfd8c343f212cb0c1ad233"
+    },
+    {
+      "path": "moodulid/09.md",
+      "sha256": "2710b2aaa3ec261cd68f3f5980f9c0dc37f7a2c1ace76c4177d60421e0baae78"
+    },
+    {
+      "path": "moodulid/10.md",
+      "sha256": "9904848fc75361dc4c47c4511cdbb27f17a319601c6e51d3cb6272e1640a8576"
+    },
+    {
+      "path": "moodulid/11.md",
+      "sha256": "242f192f4635600c4c1b4c633dbedc8550c72741806ce76415909a98ff575fbe"
+    },
+    {
+      "path": "moodulid/12.md",
+      "sha256": "7659c4593a87be83c9e831bd8ab122fa0eb6331d37ffced78b46d5c2e6fe9a7d"
+    },
+    {
+      "path": "moodulid/13.md",
+      "sha256": "9a14171f94694742caf1aef671a3bd2f869079af564e8462e3f635fc332bad06"
+    },
+    {
+      "path": "moodulid/14.md",
+      "sha256": "0fef72c63e453fff99e2e39e4070a4abcee7a79443f72d53f8afcdc69f41c9cd"
+    },
+    {
+      "path": "moodulid/15.md",
+      "sha256": "066c3931d7633d5b294011ef0a1f70372f9398927fc3399b4a44413ac0ad9ca6"
+    },
+    {
+      "path": "moodulid/16.md",
+      "sha256": "da9500a3b67b465cecab1c21c0753bd603ea800aae5702fb265e8008ef632f1c"
+    },
+    {
+      "path": "opetaja/KASIRAAMAT.md",
+      "sha256": "ce0a4c13834e2d26ef75706994c2a82b5890e2b25fbfb01561f62ae1819d1315"
+    },
+    {
+      "path": "requirements-optional.txt",
+      "sha256": "74b78a5138a177d3825797c580d2a1f2accb8d9cc291df157010d9df8fd3125c"
+    },
+    {
+      "path": "requirements-tested.txt",
+      "sha256": "a238940d6da407a3a8b2b3402a1c437a07e8599ca3f12bc15e4f8ef950f33935"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "0f655d19b706077386eeb5683c74cf12059a689933b6cfa8fe9721cf729cac8a"
+    },
+    {
+      "path": "tulemused/aegrida_mse.csv",
+      "sha256": "9ded6d8ca11e9287e2de8e838fe93f06b89b645ceeee8a5d3de5eaa6407bb454"
+    },
+    {
+      "path": "tulemused/bootstrap.json",
+      "sha256": "53c4e91e50d9a8bd0f69d9ca3298fb300dd32caa626d72411d7dfe6dcbda7e20"
+    },
+    {
+      "path": "tulemused/cv.csv",
+      "sha256": "e6cd86e583729e0ff5f729c8304e5d0d91aa3e983f7e8d2b7276379b9c81c86f"
+    },
+    {
+      "path": "tulemused/kovariatsioon.csv",
+      "sha256": "294db6d2831d59475a568b1a637c11561161d1d71af76c96825f08ff723f582c"
+    },
+    {
+      "path": "tulemused/kulutundlikkus.csv",
+      "sha256": "0e821f4904dd44e3fcf3fdbd5d5fe6348bcd962bd7b73e35357f19e3f1976513"
+    },
+    {
+      "path": "tulemused/notebook_checks.json",
+      "sha256": "870ce73ae38ed8597a6902c6f221a21d6b62fd400ba25929b769895f5b6ad6d3"
+    },
+    {
+      "path": "tulemused/portfell.csv",
+      "sha256": "738bbb13115d2977b4f733ba6ce72fe58c3e258d8def74e00eedfb409bcc8aa7"
+    },
+    {
+      "path": "tulemused/prognoosid.csv",
+      "sha256": "0adc9a8f8d0a5fe12d8944e19badaac363d39be216849a6c46cdc3a1c426af7a"
+    },
+    {
+      "path": "tulemused/rag_agent.json",
+      "sha256": "baa8972ec38ea808281e60887131f377d481e72cbdd0531838c4cfc77c37ede5"
+    },
+    {
+      "path": "tulemused/run_manifest.json",
+      "sha256": "e6bf3cf16b54992d74ff59010284469e5f1da555d2fc7e5e4838d2bf6ed48a16"
+    },
+    {
+      "path": "tulemused/statistika.csv",
+      "sha256": "9d3b59e687c0d51a202b83cd085a3b3300089f5b312eb62725e7d0fc3097fe2a"
+    },
+    {
+      "path": "tulemused/test_mse.csv",
+      "sha256": "7c834c00764e0f404dee75e875187ca73a8001f50ccec7660c443377296688a0"
+    },
+    {
+      "path": "tulemused/test_returns.csv",
+      "sha256": "47ecd3fe139472d274eb9ea5a6f76c09b0c0889c6f1205499f5427a8bb247917"
+    },
+    {
+      "path": "tulemused/valik.json",
+      "sha256": "20c83352f657ca2671e32228403a67f58ead4d1348151651377fde77426b99ec"
+    },
+    {
+      "path": "tulemused/vordlus.csv",
+      "sha256": "7891664f60168e2ba07d5c626f7dedecf14fb45eaf91f4e3b0aade01bf2e5265"
+    }
+  ]
+}
