@@ -1,0 +1,512 @@
+[
+  [
+    "01-long-call",
+    "Long call",
+    [
+      [
+        "C",
+        105,
+        1,
+        3
+      ]
+    ],
+    0,
+    "Tõusust osasaamine eelnevalt piiratud optsioonikuluga. Vaja on piisavat ja õigeaegset tõusu.",
+    "Positiivne delta ja vega, positiivne gamma; tavaliselt negatiivne theta.",
+    "Kogu 300 USD võib kaduda; aktsia mõõdukas tõus ei pruugi piisata.",
+    "Väiksem aktsiapositsioon või bull call spread.",
+    "1–3, 6"
+  ],
+  [
+    "02-long-put",
+    "Long put",
+    [
+      [
+        "P",
+        95,
+        1,
+        3
+      ]
+    ],
+    0,
+    "Langusest osasaamine või eraldi aktsiapositsiooni kindlustamine.",
+    "Negatiivne delta, positiivne gamma ja vega; sageli negatiivne theta.",
+    "Piiratud preemiakahju, kuid kaitset tuleb tähtaja möödudes uuendada.",
+    "Aktsiariski vähendamine.",
+    "2–3, 15"
+  ],
+  [
+    "03-short-call",
+    "Short call (katmata)",
+    [
+      [
+        "C",
+        105,
+        -1,
+        3
+      ]
+    ],
+    0,
+    "Piiratud krediidi saamine, kui alusvara ei tõuse liiga palju.",
+    "Negatiivne delta, gamma ja vega; sageli positiivne theta.",
+    "Teoreetiliselt piiramatu kahjum. Marginaal ja aktsiate tarnimine võivad tekitada lisarahavajaduse.",
+    "Bear call spread määratud ülempiiriga.",
+    "8"
+  ],
+  [
+    "04-short-put",
+    "Short put",
+    [
+      [
+        "P",
+        95,
+        -1,
+        3
+      ]
+    ],
+    0,
+    "Krediit ja tingimuslik ostukohustus; mõõdukalt tõusev või külgsuunaline hinnavaade.",
+    "Positiivne delta; negatiivne gamma ja vega; sageli positiivne theta.",
+    "Aktsia võib minna nulli. Väike margin ei näita kogu kahju.",
+    "Bull put spread või väiksem aktsiapositsioon.",
+    "8"
+  ],
+  [
+    "05-covered-call",
+    "Covered call",
+    [
+      [
+        "C",
+        105,
+        -1,
+        3
+      ]
+    ],
+    1,
+    "Olemasoleva 100 aktsia tõusupotentsiaali osaline loovutamine preemia eest. Sobib analüüsiks, kui ollakse valmis aktsiaid strike’iga müüma.",
+    "Kogu delta tavaliselt 0 ja 1 vahel; negatiivne gamma/vega ning sageli positiivne theta.",
+    "Aktsia languskahju jääb peaaegu tervikuna alles. Dividendieelne assignment võib lõpetada omamise.",
+    "Aktsia hoidmine või collar.",
+    "7"
+  ],
+  [
+    "06-cash-secured-put",
+    "Cash-secured put",
+    [
+      [
+        "P",
+        95,
+        -1,
+        3
+      ]
+    ],
+    0,
+    "Sama müüdud put, kuid ostukohustuseks reserveeritakse 9500 USD. Eesmärk on tingimuslik ost koos krediidiga.",
+    "Sama optsioonirisk nagu short put’il; sularaha ei muuda väljamakset.",
+    "Raha olemasolu vähendab rahastamisriski, mitte aktsia langusriski. Languse korral ostad endiselt 95-ga.",
+    "Ostu limiitorder; see ei maksa preemiat ega loo sama kohustust.",
+    "8; kapitalireserv on täiendus"
+  ],
+  [
+    "07-protective-put",
+    "Protective put",
+    [
+      [
+        "P",
+        95,
+        1,
+        3
+      ]
+    ],
+    1,
+    "Aktsia languskahjumi põranda loomine, jättes tõusuvõimaluse alles.",
+    "Aktsia + put annab tavaliselt positiivse delta, positiivse gamma/vega ja negatiivse theta.",
+    "Kindlustus maksab 300 USD; floor kehtib lepingu tähtajani ja tingimustel.",
+    "Vähenda aktsiate arvu või kasuta collar’it.",
+    "15"
+  ],
+  [
+    "08-bull-call",
+    "Bull call spread (debit)",
+    [
+      [
+        "C",
+        100,
+        1,
+        6
+      ],
+      [
+        "C",
+        110,
+        -1,
+        2
+      ]
+    ],
+    0,
+    "Mõõdukas tõusuootus: loovutad osa suure tõusu kasumist ja vähendad avamise kulu.",
+    "Tavaliselt positiivne delta; gamma, vega ja theta sõltuvad asukohast strike’ide vahel.",
+    "Kasum on ülevalt piiratud; eri jalgade täitmine võib tekitada ajutise aktsiapositsiooni.",
+    "Long call või väiksem aktsiapositsioon.",
+    "3, 12"
+  ],
+  [
+    "09-bear-put",
+    "Bear put spread (debit)",
+    [
+      [
+        "P",
+        110,
+        1,
+        12
+      ],
+      [
+        "P",
+        100,
+        -1,
+        6
+      ]
+    ],
+    0,
+    "Mõõdukas langusootus piiratud kahjumiga.",
+    "Negatiivne delta; muude kreeklaste netomärk sõltub hinnast ja ajast.",
+    "Tugeva languse lisakasu loovutatakse; short put’i assignment nõuab tähelepanu.",
+    "Long put.",
+    "12"
+  ],
+  [
+    "10-bull-put",
+    "Bull put spread (credit)",
+    [
+      [
+        "P",
+        100,
+        -1,
+        6
+      ],
+      [
+        "P",
+        90,
+        1,
+        2
+      ]
+    ],
+    0,
+    "Krediit, kui hind püsib piisavalt kõrgel; mõõdukalt tõusev vaade.",
+    "Positiivne delta; sageli theta-positiivne turvalisemas hinnapiirkonnas, mitte igal pool.",
+    "Krediit pole maksimaalne risk: kahju on strike’ide vahe miinus krediit.",
+    "Sama strike’ide bull call spread koos rahastuse võrdlusega.",
+    "12"
+  ],
+  [
+    "11-bear-call",
+    "Bear call spread (credit)",
+    [
+      [
+        "C",
+        100,
+        -1,
+        6
+      ],
+      [
+        "C",
+        110,
+        1,
+        2
+      ]
+    ],
+    0,
+    "Krediit, kui hind ei tõuse liiga kõrgele; mõõdukalt langev vaade.",
+    "Negatiivne delta; netovega ja theta sõltuvad hinnast.",
+    "Maksimaalne kahju võib olla krediidist suurem; short call võib täituda varem.",
+    "Long put või bear put spread.",
+    "12"
+  ],
+  [
+    "12-straddle",
+    "Long straddle",
+    [
+      [
+        "C",
+        100,
+        1,
+        6
+      ],
+      [
+        "P",
+        100,
+        1,
+        6
+      ]
+    ],
+    0,
+    "Suur liikumine kummas tahes suunas, piisavalt kiiresti või koos IV tõusuga.",
+    "Algdelta võib olla nulli lähedal, gamma/vega positiivsed, theta sageli negatiivne.",
+    "Mõlema õiguse eest makstakse. Pelgalt aktiivne hinnaliikumine ei taga kasumit.",
+    "Ühepoolne call/put, kui suunavaade on põhjendatud.",
+    "10"
+  ],
+  [
+    "13-strangle",
+    "Long strangle",
+    [
+      [
+        "P",
+        95,
+        1,
+        3
+      ],
+      [
+        "C",
+        105,
+        1,
+        3
+      ]
+    ],
+    0,
+    "Odavam kahepoolne liikumispanus, mille jaoks on vaja suuremat lõpphinna kõrvalekallet.",
+    "Delta võib olla nulli lähedal; positiivne gamma/vega ja sageli negatiivne theta.",
+    "Strike’ide vahel aeguvad mõlemad väärtusetult; odavam hind ei tähenda paremat tasuvust.",
+    "Straddle väiksema vajaliku liikumisega, kuid kõrgema kuluga.",
+    "10"
+  ],
+  [
+    "14-butterfly",
+    "Long call butterfly",
+    [
+      [
+        "C",
+        90,
+        1,
+        12
+      ],
+      [
+        "C",
+        100,
+        -2,
+        6
+      ],
+      [
+        "C",
+        110,
+        1,
+        2
+      ]
+    ],
+    0,
+    "Hind lõpeb keskmise strike’i lähedal; piiratud kuluga keskpiirkonna panus.",
+    "Keskme lähedal sageli negatiivne gamma/vega ja positiivne theta; tiibadel võivad märgid pöörduda.",
+    "Kõrge keskpunkti kasum ei tähenda suurt tõenäosust sinna jõuda. Neli lepingut tekitavad kulusid.",
+    "Laiem condor või tehingust loobumine.",
+    "13"
+  ],
+  [
+    "15-iron-condor",
+    "Iron condor (credit)",
+    [
+      [
+        "P",
+        90,
+        1,
+        2
+      ],
+      [
+        "P",
+        95,
+        -1,
+        3
+      ],
+      [
+        "C",
+        105,
+        -1,
+        3
+      ],
+      [
+        "C",
+        110,
+        1,
+        2
+      ]
+    ],
+    0,
+    "Hind jääb vahemikku 95–105; mõlemal pool ostetud kaitse.",
+    "Keskel tavaliselt delta väike, gamma/vega negatiivsed ja theta positiivne.",
+    "Harv läbimurre võib kustutada mitu krediiti; lai turuvahemik ei taga tulemust pärast kulusid.",
+    "Üks kitsam credit spread, kui risk on ühepoolne.",
+    "13"
+  ],
+  [
+    "16-collar",
+    "Collar",
+    [
+      [
+        "P",
+        95,
+        1,
+        3
+      ],
+      [
+        "C",
+        105,
+        -1,
+        3
+      ]
+    ],
+    1,
+    "Aktsia tulevase müügihinna vahemiku piiramine; ostetud put’i rahastab call’i müük.",
+    "Positiivne piiratud delta; netovega/theta sõltuvad mõlemast strike’ist.",
+    "Null netopreemiat ei tähenda tasuta kaitset: loovutad tõusu üle 105.",
+    "Protective put säilitab kogu tõusu, kuid maksab rohkem.",
+    "15"
+  ],
+  [
+    "17-synthetic-long",
+    "Synthetic long (call − put)",
+    [
+      [
+        "C",
+        100,
+        1,
+        6
+      ],
+      [
+        "P",
+        100,
+        -1,
+        6
+      ]
+    ],
+    0,
+    "Aktsia hinnaliikumise sünteetiline jälgimine; siin r=q=0 lihtsustus.",
+    "Sama strike’i ja tähtajaga Euroopa mudelis delta 1, gamma/vega 0; rahastusrisk jääb.",
+    "Null netokulu ei tähenda null kapitalivajadust. S=0 annab −10000 USD.",
+    "Aktsia ost koos selge rahastusega.",
+    "11; lisa E"
+  ],
+  [
+    "18-ratio",
+    "Call ratio spread 1×2",
+    [
+      [
+        "C",
+        100,
+        1,
+        6
+      ],
+      [
+        "C",
+        110,
+        -2,
+        2
+      ]
+    ],
+    0,
+    "Mõõdukas tõus 110 lähedale; üks lisamüüdud call rahastab osa ostu.",
+    "Delta, gamma ja vega võivad pöörduda; suure tõusu korral jääb netoks üks short call.",
+    "Ülespoole teoreetiliselt piiramatu kahju. Hiljem aktsia ostmise plaan ei kaitse hinnaaugu eest.",
+    "Lisa ülemine long call ja tee butterfly.",
+    "12"
+  ],
+  [
+    "19-iron-butterfly",
+    "Iron butterfly (credit)",
+    [
+      [
+        "P",
+        90,
+        1,
+        2
+      ],
+      [
+        "P",
+        100,
+        -1,
+        6
+      ],
+      [
+        "C",
+        100,
+        -1,
+        6
+      ],
+      [
+        "C",
+        110,
+        1,
+        2
+      ]
+    ],
+    0,
+    "Krediidiga panus hinna lõppemisele 100 lähedal; straddle’i riskile lisatakse tiivad.",
+    "Keskel sageli negatiivne gamma/vega ja positiivne theta.",
+    "Kasumi tipp on kitsas; mõlema short-jala täitmisriski peab juhtima.",
+    "Long call butterfly sarnase terminalkujuga.",
+    "13"
+  ],
+  [
+    "20-call-condor",
+    "Long call condor",
+    [
+      [
+        "C",
+        90,
+        1,
+        12
+      ],
+      [
+        "C",
+        95,
+        -1,
+        9
+      ],
+      [
+        "C",
+        105,
+        -1,
+        3
+      ],
+      [
+        "C",
+        110,
+        1,
+        2
+      ]
+    ],
+    0,
+    "Laiem maksimaalse kasumi platoo kui samade välisstrike’idega butterfly’l.",
+    "Keskmises piirkonnas sageli short-vol iseloom; tiibadel muutuvad netotundlikkused.",
+    "Laiem võiduala ei tõesta paremat oodatavat tulemust; ostuhind ja tasud loevad.",
+    "Butterfly, kui soovitakse kitsamat hinnapiirkonda.",
+    "13"
+  ],
+  [
+    "21-reverse-butterfly",
+    "Reverse call butterfly",
+    [
+      [
+        "C",
+        90,
+        -1,
+        12
+      ],
+      [
+        "C",
+        100,
+        2,
+        6
+      ],
+      [
+        "C",
+        110,
+        -1,
+        2
+      ]
+    ],
+    0,
+    "Piiratud kasumiga panus hinnast 100 eemaldumisele.",
+    "Keskel sageli positiivne gamma/vega ja negatiivne theta.",
+    "Väike maksimumkrediit võib kuludesse kaduda; riski suurendamine ei paranda iseenesest eelist.",
+    "Long straddle, kui vajatakse avatud suure liikumise kasu.",
+    "13"
+  ]
+]
