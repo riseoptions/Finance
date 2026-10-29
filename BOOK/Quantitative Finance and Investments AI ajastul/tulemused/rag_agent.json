@@ -1,0 +1,21 @@
+{
+  "mode": "OFFLINE_RETRIEVAL_NOT_LLM",
+  "evidence": [
+    {
+      "id": "demo_2023_p2",
+      "available_at": "2024-02-01",
+      "source": "FICTIONAL classroom report, page 2",
+      "text": "Example Corp relies on one supplier. Operating profit is not disclosed in this exercise.",
+      "score": 0.19985031293284777
+    },
+    {
+      "id": "demo_2023_p1",
+      "available_at": "2024-02-01",
+      "source": "FICTIONAL classroom report, page 1",
+      "text": "Example Corp revenue was 120 million USD in 2023 and 100 million USD in 2022.",
+      "score": 0.16649349332910357
+    }
+  ],
+  "answer_key": "Revenue growth 20%, single supplier risk, profit unknown.",
+  "seconds": 0.004052421000096729
+}

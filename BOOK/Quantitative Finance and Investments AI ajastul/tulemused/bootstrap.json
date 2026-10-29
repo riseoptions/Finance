@@ -1,0 +1,10 @@
+{
+  "block_days": 20,
+  "draws": 500,
+  "total_return_percentiles": [
+    -0.7167890003519656,
+    -0.31575846671359836,
+    0.5453537005044785
+  ],
+  "warning": "Conditional on observed sample; not future confidence guarantee."
+}

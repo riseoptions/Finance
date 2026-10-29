@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "sklearn": "1.8.0",
+  "data_sha256": "37b913efffd1dfdccf35a411b089fcd4222cecaa45f8384ce56e2d33e4c9f1f2",
+  "data_kind": "SIMULATED"
+}

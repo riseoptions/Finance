@@ -1,0 +1,6 @@
+{
+  "selected_on_validation": "xgboost",
+  "test_start": "2022-05-05",
+  "gap_rows": 2,
+  "rule": "positive forecast -> long, otherwise cash; fixed before holdout"
+}
