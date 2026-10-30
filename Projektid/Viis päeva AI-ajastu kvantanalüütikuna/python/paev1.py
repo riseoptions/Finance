@@ -1,0 +1,11 @@
+from projekt import load_data, validate
+p = load_data()
+validate(p)
+returns = p.pct_change(fill_method=None)
+momentum = p.pct_change(63, fill_method=None)
+print('SÜNTEETILINE andmestik:', p.shape)
+print('Viimane momentum:')
+print(momentum.iloc[-1].sort_values(ascending=False).round(4))
+print('Puuduvaid hindu:', int(p.isna().sum().sum()))
+print('Päevatootluste keskmine:')
+print(returns.mean().round(6))
