@@ -1,0 +1,73 @@
+group,split,label,text
+hange-0,train,hange,Hankelepingu pakkumuste tähtaeg avaldati registris.
+hange-0,train,hange,Hankelepingu pakkumuste tähtaeg avaldati registris projekti kohta.
+hange-0,train,hange,Hankelepingu pakkumuste tähtaeg avaldati registris õppejuhtumis.
+hange-1,train,hange,Ehituse pakkumuse esitamine ja lepingu tingimused.
+hange-1,train,hange,Ehituse pakkumuse esitamine ja lepingu tingimused projekti kohta.
+hange-1,train,hange,Ehituse pakkumuse esitamine ja lepingu tingimused õppejuhtumis.
+hange-2,train,hange,Riigihanke leping ning pakkumuste hindamine.
+hange-2,train,hange,Riigihanke leping ning pakkumuste hindamine projekti kohta.
+hange-2,train,hange,Riigihanke leping ning pakkumuste hindamine õppejuhtumis.
+hange-3,train,hange,Tarnija pakkumus võitis hanke.
+hange-3,train,hange,Tarnija pakkumus võitis hanke projekti kohta.
+hange-3,train,hange,Tarnija pakkumus võitis hanke õppejuhtumis.
+hange-4,train,hange,Hankelepingu muudatus avaldati.
+hange-4,train,hange,Hankelepingu muudatus avaldati projekti kohta.
+hange-4,train,hange,Hankelepingu muudatus avaldati õppejuhtumis.
+hange-5,dev,hange,Pakkumused hankes avatakse homme.
+hange-5,dev,hange,Pakkumused hankes avatakse homme projekti kohta.
+hange-5,dev,hange,Pakkumused hankes avatakse homme õppejuhtumis.
+hange-6,test,hange,Leping sõlmiti pärast hanget.
+hange-6,test,hange,Leping sõlmiti pärast hanget projekti kohta.
+hange-6,test,hange,Leping sõlmiti pärast hanget õppejuhtumis.
+hange-7,test,hange,Hankija avaldas uue hankelepingu.
+hange-7,test,hange,Hankija avaldas uue hankelepingu projekti kohta.
+hange-7,test,hange,Hankija avaldas uue hankelepingu õppejuhtumis.
+keskkond-0,train,keskkond,Keskkonnaloa sademevee tingimused on avalikud.
+keskkond-0,train,keskkond,Keskkonnaloa sademevee tingimused on avalikud projekti kohta.
+keskkond-0,train,keskkond,Keskkonnaloa sademevee tingimused on avalikud õppejuhtumis.
+keskkond-1,train,keskkond,Veekaitse ja keskkonnamõju arutelu.
+keskkond-1,train,keskkond,Veekaitse ja keskkonnamõju arutelu projekti kohta.
+keskkond-1,train,keskkond,Veekaitse ja keskkonnamõju arutelu õppejuhtumis.
+keskkond-2,train,keskkond,Keskkonnaloa müra tingimus avaldati.
+keskkond-2,train,keskkond,Keskkonnaloa müra tingimus avaldati projekti kohta.
+keskkond-2,train,keskkond,Keskkonnaloa müra tingimus avaldati õppejuhtumis.
+keskkond-3,train,keskkond,Sademevee uuring ja keskkonnamõju.
+keskkond-3,train,keskkond,Sademevee uuring ja keskkonnamõju projekti kohta.
+keskkond-3,train,keskkond,Sademevee uuring ja keskkonnamõju õppejuhtumis.
+keskkond-4,train,keskkond,Keskkonnakaitse nõuab vee uuringut.
+keskkond-4,train,keskkond,Keskkonnakaitse nõuab vee uuringut projekti kohta.
+keskkond-4,train,keskkond,Keskkonnakaitse nõuab vee uuringut õppejuhtumis.
+keskkond-5,dev,keskkond,Keskkonnaloa menetlus puudutab müra.
+keskkond-5,dev,keskkond,Keskkonnaloa menetlus puudutab müra projekti kohta.
+keskkond-5,dev,keskkond,Keskkonnaloa menetlus puudutab müra õppejuhtumis.
+keskkond-6,test,keskkond,Veekaitse hindamine jätkub.
+keskkond-6,test,keskkond,Veekaitse hindamine jätkub projekti kohta.
+keskkond-6,test,keskkond,Veekaitse hindamine jätkub õppejuhtumis.
+keskkond-7,test,keskkond,Keskkonnamõju uuring määrab tingimused.
+keskkond-7,test,keskkond,Keskkonnamõju uuring määrab tingimused projekti kohta.
+keskkond-7,test,keskkond,Keskkonnamõju uuring määrab tingimused õppejuhtumis.
+arvamus-0,train,arvamus,Arvan et projekt tundub mõttetu.
+arvamus-0,train,arvamus,Arvan et projekt tundub mõttetu projekti kohta.
+arvamus-0,train,arvamus,Arvan et projekt tundub mõttetu õppejuhtumis.
+arvamus-1,train,arvamus,Minu meelest on ehitis kole.
+arvamus-1,train,arvamus,Minu meelest on ehitis kole projekti kohta.
+arvamus-1,train,arvamus,Minu meelest on ehitis kole õppejuhtumis.
+arvamus-2,train,arvamus,Mulle tundub et otsus on halb.
+arvamus-2,train,arvamus,Mulle tundub et otsus on halb projekti kohta.
+arvamus-2,train,arvamus,Mulle tundub et otsus on halb õppejuhtumis.
+arvamus-3,train,arvamus,Usun et see idee on ilus.
+arvamus-3,train,arvamus,Usun et see idee on ilus projekti kohta.
+arvamus-3,train,arvamus,Usun et see idee on ilus õppejuhtumis.
+arvamus-4,train,arvamus,Mina arvan et lahendus on hea.
+arvamus-4,train,arvamus,Mina arvan et lahendus on hea projekti kohta.
+arvamus-4,train,arvamus,Mina arvan et lahendus on hea õppejuhtumis.
+arvamus-5,dev,arvamus,Minu arvates on plaan tore.
+arvamus-5,dev,arvamus,Minu arvates on plaan tore projekti kohta.
+arvamus-5,dev,arvamus,Minu arvates on plaan tore õppejuhtumis.
+arvamus-6,test,arvamus,Tundub mulle väga halb mõte.
+arvamus-6,test,arvamus,Tundub mulle väga halb mõte projekti kohta.
+arvamus-6,test,arvamus,Tundub mulle väga halb mõte õppejuhtumis.
+arvamus-7,test,arvamus,Arvan et tulemus tuleb ilus.
+arvamus-7,test,arvamus,Arvan et tulemus tuleb ilus projekti kohta.
+arvamus-7,test,arvamus,Arvan et tulemus tuleb ilus õppejuhtumis.

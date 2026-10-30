@@ -1,0 +1,134 @@
+[
+  {
+    "evidence_id": "E01",
+    "published_at": "2026-10-05",
+    "source_id": "SYN-volikogu",
+    "title": "Eelarveotsus",
+    "url": "https://osint-lab.example/E01",
+    "path": "data/evidence/E01.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E02",
+    "published_at": "2026-10-08",
+    "source_id": "SYN-hankeregister",
+    "title": "Lepingu sõlmimine",
+    "url": "https://osint-lab.example/E02",
+    "path": "data/evidence/E02.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E03",
+    "published_at": "2026-10-12",
+    "source_id": "SYN-volikogu",
+    "title": "Muudetud eelarve",
+    "url": "https://osint-lab.example/E03",
+    "path": "data/evidence/E03.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E04",
+    "published_at": "2026-10-19",
+    "source_id": "SYN-meedia",
+    "title": "Uudise algversioon",
+    "url": "https://osint-lab.example/E04",
+    "path": "data/evidence/E04.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E05",
+    "published_at": "2026-10-20",
+    "source_id": "SYN-meedia",
+    "title": "Uudise parandus",
+    "url": "https://osint-lab.example/E05",
+    "path": "data/evidence/E05.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E06",
+    "published_at": "2026-10-21",
+    "source_id": "SYN-sotsiaal",
+    "title": "Avaliku lehe väide",
+    "url": "https://osint-lab.example/E06",
+    "path": "data/evidence/E06.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E07",
+    "published_at": "2026-10-22",
+    "source_id": "SYN-foorum",
+    "title": "Aruteluväide",
+    "url": "https://osint-lab.example/E07",
+    "path": "data/evidence/E07.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E08",
+    "published_at": "2026-10-15",
+    "source_id": "SYN-ehitisregister",
+    "title": "Loa väljavõte",
+    "url": "https://osint-lab.example/E08",
+    "path": "data/evidence/E08.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E09",
+    "published_at": "2026-10-16",
+    "source_id": "SYN-ariregister",
+    "title": "Organisatsioonide seos",
+    "url": "https://osint-lab.example/E09",
+    "path": "data/evidence/E09.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E10",
+    "published_at": "2026-10-23",
+    "source_id": "SYN-hankeregister",
+    "title": "Lepingute võrdlusandmed",
+    "url": "https://osint-lab.example/E10",
+    "path": "data/evidence/E10.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E11",
+    "published_at": "2026-10-23",
+    "source_id": "SYN-keskkond",
+    "title": "Sademevee tingimus",
+    "url": "https://osint-lab.example/E11",
+    "path": "data/evidence/E11.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  },
+  {
+    "evidence_id": "E12",
+    "published_at": "2026-10-24",
+    "source_id": "SYN-test",
+    "title": "Vaenulik tekst",
+    "url": "https://osint-lab.example/E12",
+    "path": "data/evidence/E12.txt",
+    "synthetic": true,
+    "rights": "Originaalne sünteetiline õppeandmestik; CC BY 4.0",
+    "captured_at": "2026-10-30T10:00:00+00:00"
+  }
+]

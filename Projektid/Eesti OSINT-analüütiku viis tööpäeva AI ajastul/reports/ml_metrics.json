@@ -1,0 +1,100 @@
+{
+  "synthetic": true,
+  "labels": [
+    "arvamus",
+    "hange",
+    "keskkond"
+  ],
+  "n": {
+    "train": 45,
+    "dev": 9,
+    "test": 18
+  },
+  "scores": {
+    "majority": {
+      "dev": {
+        "macro_f1": 0.16666666666666666,
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "test": {
+        "macro_f1": 0.16666666666666666,
+        "confusion_matrix": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "tfidf_logreg": {
+      "dev": {
+        "macro_f1": 1.0,
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            3
+          ]
+        ]
+      },
+      "test": {
+        "macro_f1": 0.9440559440559441,
+        "confusion_matrix": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  "deployment": "Ei rakendata pärisandmetele ilma sõltumatu eestikeelse hindamiskoguta. Testiga ei häälestatud."
+}

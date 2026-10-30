@@ -1,0 +1,9 @@
+FIKTIIVNE ÕPPEANDMESTIK
+Lepingute võrdlusandmed
+Avaldatud: 2026-10-23
+
+contracts.csv on 12 sünteetilise lepingu õppetable. Kõik summad on eurodes käibemaksuta. base_eur on esialgne eelarve ja award_eur sõlmitud lepingu hind. Tegelike maksete andmed puuduvad. See valim ei esinda Eesti hangete üldkogumit.
+
+Harjutusfailide SHA-256:
+data/contracts.csv: 29caacc962db0f172feb44411fd3bec39463a8227dc66dedcb44e9eee2d19b66
+data/edges.csv: fc663c263814e6a2b7d81e1f1679e5ee275743e546f185d6e05a66c59f57c4c6

@@ -1,0 +1,36 @@
+[
+  {
+    "question": "SYN-C01 pakkumust",
+    "gold": [
+      "E02"
+    ]
+  },
+  {
+    "question": "sademeveelahendus eelarve",
+    "gold": [
+      "E03"
+    ]
+  },
+  {
+    "question": "ühist kontrolli omandi aadressi",
+    "gold": [
+      "E09"
+    ]
+  },
+  {
+    "question": "ehitusluba väljastatud",
+    "gold": [
+      "E08"
+    ]
+  },
+  {
+    "question": "parandab ekslik",
+    "gold": [
+      "E05"
+    ]
+  },
+  {
+    "question": "kvantgravitatsioon neutriino",
+    "gold": []
+  }
+]

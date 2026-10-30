@@ -1,0 +1,17 @@
+test_api_mock_and_schema (test_project.Core.test_api_mock_and_schema) ... ok
+test_arithmetic (test_project.Core.test_arithmetic) ... ok
+test_citation_validation (test_project.Core.test_citation_validation) ... ok
+test_data_binding (test_project.Core.test_data_binding) ... ok
+test_evidence_integrity (test_project.Core.test_evidence_integrity) ... ok
+test_idempotent (test_project.Core.test_idempotent) ... ok
+test_manifest_unique (test_project.Core.test_manifest_unique) ... ok
+test_path_escape (test_project.Core.test_path_escape) ... ok
+test_query_parameter (test_project.Core.test_query_parameter) ... ok
+test_retrieval_and_abstention (test_project.Core.test_retrieval_and_abstention) ... ok
+test_sql_checks (test_project.Core.test_sql_checks) ... ok
+test_version_history (test_project.Core.test_version_history) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.133s
+
+OK

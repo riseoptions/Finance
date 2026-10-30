@@ -1,0 +1,4 @@
+src,dst,relation,evidence_id
+SYN-O01,SYN-O02,sõlmis_lepingu,E02
+SYN-O02,SYN-ADDR1,kasutab_aadressi,E09
+SYN-O03,SYN-ADDR1,kasutab_aadressi,E09

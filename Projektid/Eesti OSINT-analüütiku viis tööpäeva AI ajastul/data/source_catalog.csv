@@ -1,0 +1,41 @@
+id,primary,name,url,access,purpose,reference,status
+1,True,e-äriregistri avalik otsing,https://ariregister.rik.ee/,M/P,Organisatsiooni registritunnus ja staatus,S1,Ametlik juhend kontrollitud; portaalis dokumentide tingimused eraldi
+2,True,e-äriregistri avaandmed ja API,https://avaandmed.ariregister.rik.ee/et/avaandmete-allalaadimine,D/A/P,Organisatsioonide andmefailid; XML API eraldi lepingu alusel,"S1,S2",Dokumentatsioon kontrollitud; kasusaajad pole avaandmed alates 10.07.2026
+3,True,Riigihangete register,https://riigihanked.riik.ee/,M/D,"Hange, leping, muudatus, vaidlustus","S3,S4",Juhend kontrollitud; veebiliidese automatiseerimiseks ei anta siin luba
+4,True,Statistikaamet PxWeb,https://andmed.stat.ee/,A/D/M,Hinnaindeksid ja piirkondlik taust,S5,API dokumentatsioon kontrollitud; valikulise GETi tulemus testiraportis
+5,True,Maa- ja Ruumiameti geoportaal,https://geoportaal.maaamet.ee/,A/D/M,Kaardikihid ja ajaloolised ortofotod,S6,WMS/WFS juhend kontrollitud; viita kihile ja ajale
+6,True,PLANIS planeeringute infosüsteem,https://planeerimine.ee/digi/menetluse-infosysteem/,M/A,"Planeeringud, menetlus, WMS/WFS",S7,Ametlik üleminekujuhis kontrollitud; PLANKi asemel PLANIS
+7,True,Ehitisregister,https://www.ehr.ee/,M/P,Ehitusload ja ehitise andmed,S8,Ametlik kirjeldus kontrollitud; portaal tööriistaga ei avanenud; API kasutus ei kinnitatud
+8,True,KOTKAS,https://kotkas.envir.ee/,M/P,Keskkonnaload ja avalikud menetlusdokumendid,S9,Ametlik kirjeldus kontrollitud; portaali otseavamisel 403
+9,True,Riigi Teataja,https://www.riigiteataja.ee/,M/D,Kehtiv õigus ja kohalikud määrused,S10,Avaleht nõuab JavaScripti; vali kehtiv redaktsioon käsitsi
+10,True,Ametlikud Teadaanded,https://www.ametlikudteadaanded.ee/,M/P,Planeeringu- ja menetlusteated,S11,RIKi ametlik kirjeldus kontrollitud; arhiveeritud teatel võivad olla piirangud
+11,True,KOV ametlik veeb ja dokumendiregister: Tartu näide,https://tartu.ee/,M/D,"Volikogu otsus, eelarve, protokoll",S12,Avaleht ja planeeringute viide kontrollitud; konkreetne register valida KOV järgi
+12,True,RTK toetatud projektid,https://rtk.ee/toetuste-ulevaated-oigusaktid/ulevaade-toetatud-projektidest/toetatud-projektid,D/M,Toetuse otsused ja projektide tabelid,S13,Ametlik tabelite leht kontrollitud; otsus ei ole väljamakse
+13,True,ERR,https://www.err.ee/,M,Avalikud uudised ja parandused,S14,Avaleht kontrollitud; täisteksti masskogumine ei kuulu projekti
+14,True,Riigikontroll,https://www.riigikontroll.ee/,M/D,Auditiaruanded ja metoodiline taust,S15,Ametlik aruannete leht kontrollitud
+15,True,Andmete teabevärav,https://andmed.eesti.ee/,M/D,Andmestike ja litsentside leidmine,S16,Portaal avanes tekstita; konkreetse andmestiku tingimusi kontrollida eraldi
+16,False,e-kinnistusraamat,https://www.rik.ee/et/e-kinnistusraamat/e-kinnistusraamat,P/M,Projektiala kinnistu õiguste kontroll vajadusel,S17,Ametlik kirjeldus kontrollitud; tasu ja ligipääsu alus
+17,False,AKI juhised,https://www.aki.ee/teabe-avalikkus/teabe-valdajale/avaliku-teabe-taaskasutamine-avaandmed,M,Avaliku teabe ja isikuandmete taaskasutuse piirid,S18,Ametlik juhend kontrollitud
+18,False,Eesti Pank,https://www.eestipank.ee/,M/D,Majanduslik taust ja analüüsid,S19,Avaleht kontrollitud; konkreetne statistikatabel valida eraldi
+19,False,Keskkonnaportaal,https://keskkonnaportaal.ee/,M/D,Keskkonnaandmete leidmine,-,Otseavamine ebaõnnestus 502; ligipääsu ja failide tingimusi kontrollida
+20,False,Kultuurimälestiste register,https://register.muinas.ee/,M/P,Muinsuskaitse tingimuste lähtekoht,-,Otseavamine andis 403; kasutaja peab ametlikus veebis kontrollima
+21,False,Rahvusarhiiv,https://www.ra.ee/,M/P,Projektiala ajaloolised dokumendid,-,Otseavamisel ajalimiit; digikoopia ja juurdepääsu tingimused eraldi
+22,False,DIGAR,https://www.digar.ee/,M/P,Ajaloolised väljaanded ja ajalehed,-,Otseavamisel 403; autoriõigus ja kohalkasutuse piirangud kontrollida
+23,False,TED Euroopa hanketeated,https://ted.europa.eu/,M/D,Eesti rahvusvahelise piirmääraga hanked,S3,RHR ametlik juhend kinnitab teadete saatmist; otsene API selles projektis testimata
+24,False,Postimees,https://www.postimees.ee/,M/P,"Uudised, algväited ja parandused",-,Kataloogikandidaat; konkreetse lehe juurdepääs ja taaskasutus kontrollimata
+25,False,Tartu Postimees,https://tartu.postimees.ee/,M/P,Kohaliku arendusprojekti kajastus,-,Kataloogikandidaat; tasuline sisu ainult lubatud ligipääsuga
+26,False,Delfi,https://www.delfi.ee/,M/P,"Uudised, faktikontroll ja avalik debatt",-,Kataloogikandidaat; täistekstide kogumise tingimused kontrollida
+27,False,Äripäev,https://www.aripaev.ee/,M/P,Äri- ja ehitusvaldkonna kajastus,-,Kataloogikandidaat; tellimus ei tähenda masskopeerimise luba
+28,False,Facebooki avalikud projektilehed,https://www.facebook.com/,M/P,Avalikud ametlikud projektiteated,-,Käsitsi; nähtavus ja tingimused kontrollida konkreetsel lehel
+29,False,Instagrami avalikud projektikanalid,https://www.instagram.com/,M/P,Projektifotod ja avalikud teated,-,Käsitsi; ei koguta jälgijaid ega autoriprofiile
+30,False,TikToki avalikud projektivideod,https://www.tiktok.com/,M/P,Avalikud videoväited ja nende päritolu,-,Käsitsi; ilma juurdepääsutõketest möödumiseta
+31,False,YouTube ametlikud KOV kanalid,https://www.youtube.com/,M/P,Volikogu istungite ja arutelude salvestised,-,Kataloogikandidaat; kanali ametlikkus ja video tingimused eraldi
+32,False,X avalikud asutuste teated,https://x.com/,M/P,Avalik kommunikatsioon ja viited,-,API-d ei eeldata tasuta ega lubatuks; ainult käsitsi hinnatud avalik sisu
+33,False,Hinnavaatluse foorum,https://foorum.hinnavaatlus.ee/,M/P,Tehniliste väidete ja aruteluteemade avastamine,-,Kataloogikandidaat; foorum ei ole registriandmete asendus
+34,False,Ehitusfoorum,https://www.ehitusfoorum.com/,M/P,Ehitusväidete ja terminite arutelu,-,Kataloogikandidaat; arvamused kontrollida tehniliste algallikatega
+35,False,Reddit r/Eesti,https://www.reddit.com/r/Eesti/,M/P,Eesti avaliku debati teemad,-,"Kataloogikandidaat; valikukallutatus, ei profileerita kasutajaid"
+36,False,Tallinna ametlik veeb,https://www.tallinn.ee/,M/D,Võrdlusprojekti eelarve ja menetlus,-,Kataloogikandidaat; iga dokumendiregistri piirang eraldi
+37,False,Transpordiamet,https://www.transpordiamet.ee/,M/D,Taristuprojektide ja liiklusmõju taust,-,Kataloogikandidaat; allalaaditav fail kinnitada enne importi
+38,False,Keskkonnaamet,https://www.keskkonnaamet.ee/,M/D,Avalikustamised ja selgitused,S9,Ametlikud KMH ja loateadete juhised kontrollitud
+39,False,Riigi kinnisvararegistri avaandmed,https://www.fin.ee/riigihaldus-ja-avalik-teenistus-kinnisvara/riigi-kinnisvararegister/avaandmed,D/M,Riigi kinnisvara aruanded,S20,Ametlik XML aruannete suunaleht kontrollitud
+40,False,RIHA,https://www.riha.ee/,M,"Registri vastutaja, andmekoosseis ja dokumentatsioon",S21,RHR ja EHR kirjeldused kontrollitud; RIHA ei anna iseenesest andmetele ligipääsu
