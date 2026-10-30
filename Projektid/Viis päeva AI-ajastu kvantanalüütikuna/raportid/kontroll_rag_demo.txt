@@ -1,0 +1,9 @@
+[
+  {
+    "id": "D1",
+    "published": "2024-02-10",
+    "text": "[SIMULATSIOON] Ettevõtte tulu kasvas 8 protsenti. Juhtkond nimetas nõudluse taastumist. See ei tõenda aktsia alahinnatust.",
+    "score": 0.3848111990210404
+  }
+]
+Leitud allikad võib anda LLM-ile; vasta ainult nende põhjal või ütle, et tõend puudub.

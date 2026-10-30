@@ -1,0 +1,13 @@
+Prognoos:
+       period  model     RMSE  precision   recall  positive_rate
+valideerimine reegel 0.061598   0.578571 0.658537       0.569444
+valideerimine  ridge 0.054297   0.550336 0.666667       0.569444
+valideerimine   mets 0.054361   0.571429 0.682927       0.569444
+Portfell:
+       period  model      CAGR      vol  Sharpe_rf0  max_drawdown_monthly  months  mean_turnover
+valideerimine   baas -0.005222 0.169504    0.059677             -0.276798      36       0.046498
+valideerimine reegel -0.034413 0.172100   -0.113576             -0.301341      36       0.810467
+valideerimine  ridge -0.018673 0.175718   -0.013575             -0.274636      36       1.420941
+valideerimine   mets -0.016678 0.175356   -0.002989             -0.273211      36       1.311453
+valideerimine   risk -0.004868 0.148327    0.043925             -0.220611      36       0.529318
+55% tabamus, 1 euro võit, 1.5 euro kaotus: -0.125

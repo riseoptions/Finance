@@ -1,0 +1,21 @@
+AST laadi_parisandmed.py OK
+AST matemaatika.py OK
+AST paev1.py OK
+AST paev2.py OK
+AST paev3.py OK
+AST paev4.py OK
+AST paev5.py OK
+AST projekt.py OK
+AST rag_demo.py OK
+AST raport.py OK
+AST testid.py OK
+RUN testid.py OK
+RUN matemaatika.py OK
+RUN paev1.py OK
+RUN paev2.py OK
+RUN paev3.py OK
+RUN paev4.py OK
+RUN paev5.py OK
+RUN rag_demo.py OK
+Colab JSON ja koodisüntaks OK; brauserikäivitust ei testitud
+Kõik kohalikud Markdowni faililingid OK

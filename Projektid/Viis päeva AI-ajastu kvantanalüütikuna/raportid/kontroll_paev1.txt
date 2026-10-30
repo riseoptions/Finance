@@ -1,0 +1,18 @@
+SÜNTEETILINE andmestik: (3653, 6)
+Viimane momentum:
+SYN_XLI    0.0725
+SYN_XLF    0.0496
+SYN_XLP    0.0467
+SYN_XLE    0.0344
+SYN_XLV   -0.0028
+SYN_XLK   -0.0201
+Name: 2025-12-31 00:00:00, dtype: float64
+Puuduvaid hindu: 0
+Päevatootluste keskmine:
+SYN_XLK    0.000301
+SYN_XLF    0.000139
+SYN_XLE    0.000132
+SYN_XLV    0.000273
+SYN_XLI    0.000313
+SYN_XLP    0.000160
+dtype: float64

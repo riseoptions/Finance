@@ -1,0 +1,9 @@
+Lihttootlus: 0.08000000000000007
+Logtootlus kahe perioodi peale: 0.19062035960864987
+Geomeetriline keskmine: -0.020204102886728803
+Sharpe: 0.8660254037844386
+Kahe vara volatiilsus: 0.1
+Ridge ühe tunnusega: 0.4
+RMSE protsendipunktides: 2.23606797749979
+Precision, recall: 0.6 0.75
+OLS vabaliige ja beeta: [0.002 1.2  ]

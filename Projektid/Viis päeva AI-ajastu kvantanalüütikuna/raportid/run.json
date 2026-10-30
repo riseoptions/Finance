@@ -1,0 +1,16 @@
+{
+  "data_kind": "SYNTHETIC_ONLY",
+  "seed": 20261030,
+  "sha256": "edda792835f073ce7c76f2c7b52234b11e0f31f6192c892a9541ea5a1d2363d1",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "sklearn": "1.8.0",
+  "cost_one_way_bps": 10,
+  "stress_last_portfolio": -0.11226317444779105,
+  "paired_excess_mean_annual_ci95": [
+    -0.06511656465734719,
+    0.03470648476794574
+  ],
+  "decision": "Ainult töövoo õppesimulatsioon; turueelis ei ole tõendatud."
+}
